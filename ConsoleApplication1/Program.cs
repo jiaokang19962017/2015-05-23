@@ -10,6 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Animal a = new Animal(12,'男',"红色");
+            a.Print();
         }
     }
 }
